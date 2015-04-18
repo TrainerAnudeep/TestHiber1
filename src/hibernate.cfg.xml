@@ -9,8 +9,9 @@
 		<property name="connection.url">
 			jdbc:mysql://localhost:3306/test
 		</property>
-		<property name="connection.username">user</property>
+		<property name="connection.username">root</property>
 		<property name="connection.password"/>
+		<property name="hibernate.hbm2ddl.auto">update</property>
 		<property name="connection.driver_class">com.mysql.jdbc.Driver</property>
 		<mapping resource="com/example/Events.hbm.xml" />
 		<mapping resource="com/example/Locations.hbm.xml" />

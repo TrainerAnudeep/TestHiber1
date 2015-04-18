@@ -3,7 +3,11 @@ package com.example;
 import java.io.Serializable;
 
 public class Location implements Serializable{
-    private Long id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 2869920819368595631L;
+	private Long id;
     private String name;
     private Address address = new Address();
 

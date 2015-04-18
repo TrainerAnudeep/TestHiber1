@@ -3,7 +3,11 @@ import java.io.Serializable;
 import java.util.Date;
 
 public class Event implements Serializable {
-    private Long id;
+    /**
+	 * 
+	 */
+	private static final long serialVersionUID = 321218705693509917L;
+	private Long id;
     private int duration;
     private String name;
     private Date startDate;
